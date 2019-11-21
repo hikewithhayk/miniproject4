@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="afs njit">
+        <serverdata>
+          <mappings>
+            <mapping deploy="jekyll_test" local="$PROJECT_DIR$" web="jekyll_test" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
