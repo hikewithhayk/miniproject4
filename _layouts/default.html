@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     <meta charset='utf-8'>
     <title>
         {% if page.title %}
@@ -21,9 +24,7 @@
 
 <body>
     {% include header.html %}
-
-    {{ content }}
-<hr>
+    {% include content_F.html %}
     {% include footer.html %}
 </body>
 </html>
