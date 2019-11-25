@@ -1,27 +1,54 @@
 ---
 layout: default_F
+title: Home
 ---
 
-{% for post in paginator.posts %}
-<section>
-  <h2>
-    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      {{ post.title }}
-    </a>
-  </h2>
+<div id="wrapper">
+    <div id="page_center">
+        <div id="content">
+            <h2>Index Page</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum scelerisque nulla, ac
+                lobortis
+                lorem venenatis a. Etiam convallis purus nec orci volutpat mollis. Fusce ullamcorper neque lacus. Morbi
+                nec
+                hendrerit ligula, porttitor lobortis nisl. Aliquam et libero at velit blandit sollicitudin. Curabitur
+                nec semper
+                mauris. Integer nec massa finibus nulla commodo lacinia. Mauris at consectetur massa. Maecenas id metus
+                gravida,
+                tempor justo non, ornare lorem. Sed ut maximus nulla. Vivamus varius quam magna, sed malesuada enim
+                accumsan at.
+                Vivamus at tristique arcu. Donec laoreet euismod suscipit. Nam dui quam, finibus sed mollis nec,
+                condimentum
+                vitae
+                mauris. Integer malesuada neque nec nisl porttitor, ut venenatis libero varius.
+            </p>
+            <p>
+                Duis libero enim, laoreet et euismod vitae, tincidunt ut orci. Maecenas placerat, dui sit amet feugiat
+                bibendum,
+                lectus odio tristique lacus, vitae tincidunt dolor nisi ut elit. Cras venenatis, felis non efficitur
+                ornare,
+                augue
+                velit placerat sapien, a condimentum nisl odio id quam. Nunc eu leo in est porta venenatis auctor quis
+                quam. Ut
+                placerat purus quis lacus bibendum, at convallis purus scelerisque. Aliquam quis velit eu lectus sodales
+                sollicitudin. Pellentesque a dui massa. Maecenas elementum eget arcu ac faucibus. Maecenas elementum
+                nunc id
+                libero tempus, sed luctus leo aliquam.
+            </p>
 
-  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
-</section>
-{% endfor %}
-
-{% if paginator.previous_page %}
-<a href='{{ site.url }}{{ paginator.previous_page_path }}'>Previous</a>
-{% endif %}
-
-&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;
-
-
-{% if paginator.next_page %}
-<a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
-{% endif %}
-
+        </div>
+        <div id="sidetext">
+            <ol>
+                <li><a href="latest.html">Duis libero enim</a></li>
+                <li><a href="news.html">Duis libero enim</a></li>
+                <li><a href="about.html">Duis libero enim</a></li>
+                <li><a href="godknowswhat.html">Duis libero enim</a></li>
+            </ol>
+        </div>
+    </div>
+    <div id="sidebar">
+        <div id="sidebarImage">
+            <img src="img/test.png" height="183" width="275"/></div>
+    </div>
+</div>
