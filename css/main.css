@@ -165,7 +165,7 @@ textarea {
   width:auto;
   height:auto;
   display:inline-block;
-  background-color: #ADD8E6; color: black;
+  background-color: #DEF5FF; color: red;
   border-radius: 12px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -252,22 +252,22 @@ textarea {
   font-size: 24px;
 }
 
-#bottom_page{
+.bottom_page{
   margin-top: 26px;
   display: flex;
   flex-direction: row;
   width: 960px ;
 }
 
-#content_z {
+.content_z {
   display: inline-block;
-  width: 296px;
+  width: 320px;
   text-align: center;
 }
 
-#content_1_z {
+.content_1_z {
   display: inline-block;
-  width: 296px;
+  width: 320px;
   text-align: center;
 }
 
