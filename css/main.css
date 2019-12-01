@@ -104,6 +104,17 @@ textarea {
   /*background-color: #b3d4fc;
 */
 }
+
+
+#wrapper iframe{
+  position: center;
+  height:760px;
+  width: 940px;
+  margin: auto;
+}
+
+
+
 #header{
   width: 960px;
   margin: auto;
