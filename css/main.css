@@ -109,8 +109,11 @@ textarea {
 #wrapper iframe{
   position: center;
   height:760px;
-  width: 940px;
+  width: 957px;
   margin: auto;
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+  text-align: center;
 }
 
 
