@@ -2,11 +2,25 @@
     <div id="footer">
         <p>Hayk Samvelyan®</p>
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <!-- Google ID: UA-154864300-1 -->
+
+        <!-- original code from MiniProject 2
         <script>
             window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
             ga('create', 'UA-{{ site.google }}', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async></script>
+        -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154864300-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-154864300-1');
+        </script>
+
+
     </div>
 </div>
