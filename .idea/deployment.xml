@@ -5,7 +5,7 @@
       <paths name="AFS13">
         <serverdata>
           <mappings>
-            <mapping deploy="githubpages" local="$PROJECT_DIR$" web="/githubpages" />
+            <mapping deploy="miniproject3" local="$PROJECT_DIR$" web="/miniproject3" />
           </mappings>
         </serverdata>
       </paths>
