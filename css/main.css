@@ -106,39 +106,37 @@ textarea {
 }
 
 
-#wrapper iframe{
+#wrapper iframe {
   position: center;
-  height:760px;
+  height: 760px;
   width: 957px;
   margin: auto;
-  margin-left: auto;   /* Automatic margin from left */
-  margin-right: auto; /* Automatic margin from right */
   text-align: center;
 }
 
 
-
-#header{
+#header {
   width: 960px;
   margin: auto;
   height: 131px;
   display: flex;
   flex-direction: row;
 }
-#footer{
-  clear:both;
-  bottom:0;
-  width:960px;
+
+#footer {
+  clear: both;
+  bottom: 0;
+  width: 960px;
   padding-right: 24px;
-  height:60px;   /* Height of the footer */
+  height: 60px; /* Height of the footer */
   /*background-color: #b3d4fc*/
 }
 
 #logo {
   float: left;
-  height: 131px ;
+  height: 131px;
   width: 120px;
-  background-image:  url("../img/Atom_editor_logo.svg");
+  background-image: url("../img/Atom_editor_logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,8 +144,8 @@ textarea {
 
 }
 
-#masthead{
-  clear:both;
+#masthead {
+  clear: both;
   height: 80px;
   background-size: cover;
   background-position: center;
@@ -155,10 +153,10 @@ textarea {
   background-color: black;
   background-image: url("../img/Cool-Twitter-Headers-5.jpg");
   margin-bottom: 26px;
-  }
+}
 
 #primary_links {
-  clear:both;
+  clear: both;
   display: inline-block;
   font-family: SansSerif, serif;
   padding-top: 50px;
@@ -168,7 +166,7 @@ textarea {
   align-content: center;
 }
 
-#primary_links button{
+#primary_links button {
   align-content: center;
   border: none;
   color: white;
@@ -176,44 +174,47 @@ textarea {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  width:auto;
-  height:auto;
-  display:inline-block;
-  background-color: #DEF5FF; color: red;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: #DEF5FF;
   border-radius: 12px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
+
 #primary_links button:hover {
   background-color: #008CBA;
   color: white;
 }
 
 #sidebarImage {
-  clear:both;
+  clear: both;
   height: auto;
   padding-left: 154px;
 }
 
-#sidetext img{
+#page_center {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidetext {
+  display: inline-block;
+  padding-left: 90px;
+  width: 277px;
+}
+
+#sidetext p {
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+#sidetext img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-#page_center{
-  display: flex;
-  flex-direction: row;
-}
-#sidetext {
-  display: inline-block;
-  width:auto;
-  padding-left: 90px;
-}
-#sidetext ol{
-  list-style-type: none;
-  font-size: 20px;
-  line-height:200%;
 }
 
 #content {
@@ -222,27 +223,22 @@ textarea {
   float: left;
 }
 
-#content h2{
-  padding-right: 24px;
-  padding-left: 24px;
-}
-
 #content p {
-  padding-right: 24px;
-  padding-left: 24px;
+  text-align: left;
+  overflow-wrap: break-word;
 }
 
-#sidebar{
-  clear:both;
-  width:960px;
+#sidebar {
+  clear: both;
+  width: 960px;
   align-content: center;
 
 }
 
-#page_center{
+#page_center {
   display: flex;
   flex-direction: row;
-  width: 960px ;
+  width: 960px;
 }
 
 #hero_image {
@@ -273,11 +269,11 @@ textarea {
   font-size: 24px;
 }
 
-.bottom_page{
+.bottom_page {
   margin-top: 26px;
   display: flex;
   flex-direction: row;
-  width: 960px ;
+  width: 960px;
 }
 
 .content_z {
@@ -292,12 +288,12 @@ textarea {
   text-align: center;
 }
 
-#contacts_z{
+#contacts_z {
   display: inline-block;
   width: 366px;
   text-align: center;
   border-radius: 25px;
-  background-color: rgba(131,139,126,0.29);
+  background-color: rgba(131, 139, 126, 0.29);
 }
 
 /*
@@ -407,9 +403,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -430,16 +426,20 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -448,14 +448,17 @@ textarea {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -463,19 +466,21 @@ textarea {
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
   }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
-
