@@ -97,6 +97,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.LI-profile-badge{
+  float: left;
+}
+
+.github-button{
+  float: center;
+}
+
+.resume_link{
+  float: right;
+}
 #wrapper {
   width: 960px;
   margin: auto;
