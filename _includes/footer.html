@@ -1,26 +1,31 @@
 <div id="wrapper">
     <div id="footer">
-        <p>Hayk Samvelyan®</p>
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <p>Hayk Samvelyan ® --</p>
 
-        <!-- original code from MiniProject 2
+            <script type="text/javascript">
+                var d = new Date()
+                document.write(d.getFullYear())
+            </script>
+
+            <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="hayksamvelyan"><a class="LI-simple-link" href='https://www.linkedin.com/in/hayksamvelyan?trk=profile-badge'>Hayk Samvelyan</a></div>
+
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!--UA-154864300-1-->
+
         <script>
-            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-            ga('create', 'UA-{{ site.google }}', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+            window.ga = function () {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-{{ site.google }}', 'auto');
+            ga('set','transport','beacon');
+            ga('send', 'pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async></script>
-        -->
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154864300-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-154864300-1');
-        </script>
-
 
     </div>
 </div>
