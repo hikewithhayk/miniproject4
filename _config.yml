@@ -1,5 +1,5 @@
-name: "MiniProject 2"
-description: "Beginner heaven"
+name: "MiniProject 3"
+description: "Portfolio"
 google: "154864300-1"
 resume: "https://docs.google.com/document/d/e/2PACX-1vSwoZKuYFcFSkSrPiAKXU3ateurBg8pYIHkowbmCsp4FWgbW8nMZUqdbc6WLkVKEv1vpiwqzzshyOEk/pub"
 Project_1: ""
@@ -8,8 +8,8 @@ Project_3: ""
 Project_4: ""
 
 
-url: '' 
-baseurl: ''
+url: 'https://hikewithhayk.github.io/'
+baseurl: '/miniproject4'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
