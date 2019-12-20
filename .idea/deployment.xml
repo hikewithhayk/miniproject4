@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="AFS13">
     <serverData>
-      <paths name="afs njit">
+      <paths name="AFS13">
         <serverdata>
           <mappings>
-            <mapping deploy="jekyll_test" local="$PROJECT_DIR$" web="jekyll_test" />
+            <mapping deploy="githubpages" local="$PROJECT_DIR$" web="/githubpages" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
