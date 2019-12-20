@@ -194,6 +194,13 @@ textarea {
   height: auto;
   padding-left: 154px;
 }
+
+#sidetext img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 #page_center{
   display: flex;
   flex-direction: row;
