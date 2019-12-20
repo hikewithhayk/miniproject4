@@ -100,14 +100,17 @@ textarea {
 
 .LI-profile-badge{
   float: left;
+  position: relative;
 }
 
 .github-button{
   float: center;
+  position: relative;
 }
 
 .resume_link{
   float: right;
+  position: relative;
 }
 #wrapper {
   width: 960px;
