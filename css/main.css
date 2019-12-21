@@ -143,8 +143,28 @@ textarea {
   bottom: 0;
   width: 960px;
   padding-right: 24px;
-  height: 60px; /* Height of the footer */
-  /*background-color: #b3d4fc*/
+  height: 60px;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+
+.foot_git{
+  display: inline-block;
+  width: 320px;
+  text-align: center;
+}
+
+.foot_linkedin{
+  display: inline-block;
+  width: 320px;
+  text-align: center;
+}
+
+.foot_name{
+  display: inline-block;
+  width: 320px;
+  text-align: center;
 }
 
 #logo {
@@ -291,30 +311,6 @@ textarea {
   width: 960px;
 }
 
-.footer_content {
-  margin-top: 26px;
-  display: flex;
-  flex-direction: row;
-  width: 960px;
-}
-
-.foot_git{
-  display: inline-block;
-  width: 320px;
-  text-align: center;
-}
-
-.foot_linkedin{
-  display: inline-block;
-  width: 320px;
-  text-align: center;
-}
-
-.foot_name{
-  display: inline-block;
-  width: 320px;
-  text-align: center;
-}
 
 .content_z {
   display: inline-block;
