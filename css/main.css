@@ -98,11 +98,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.LI-profile-badge{
-  float: left;
-  position: relative;
-}
-
 .github-button{
   float: center;
   position: relative;
