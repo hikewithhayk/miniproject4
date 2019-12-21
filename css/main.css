@@ -291,6 +291,13 @@ textarea {
   width: 960px;
 }
 
+.footer_content {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+}
+
 .foot_git{
   display: inline-block;
   width: 320px;
