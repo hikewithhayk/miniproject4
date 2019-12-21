@@ -148,6 +148,11 @@ textarea {
   display: flex;
   flex-direction: row;
 }
+.foot_name{
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+}
 
 .foot_git{
   display: inline-block;
@@ -156,12 +161,6 @@ textarea {
 }
 
 .foot_linkedin{
-  display: inline-block;
-  width: 300px;
-  text-align: center;
-}
-
-.foot_name{
   display: inline-block;
   width: 300px;
   text-align: center;
