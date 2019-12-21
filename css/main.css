@@ -142,7 +142,6 @@ textarea {
   clear: both;
   bottom: 0;
   width: 960px;
-  padding-right: 24px;
   height: 60px;
   margin-top: 26px;
   display: flex;
@@ -162,7 +161,6 @@ textarea {
 
 .foot_linkedin{
   display: inline-block;
-  width: 300px;
   text-align: center;
 }
 
