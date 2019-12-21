@@ -1,3 +1,7 @@
+<!-- OLD FOOTER DESIGN -->
+
+<!--
+
 <div id="wrapper">
     <div id="footer">
         <p>Hayk Samvelyan ® --</p>
@@ -7,15 +11,15 @@
             document.write(d.getFullYear())
         </script>
 
-        <!--LINKEDIN FOOTER-->
+
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
         <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal"
              data-theme="light" data-vanity="hayksamvelyan"><a class="LI-simple-link" href='https://www.linkedin.com/in/hayksamvelyan?trk=profile-badge'>Hayk
             Samvelyan LinkedIn</a></div>
 
-        <!--GITHUB FOOTER -->
-        <!-- Place this tag where you want the button to render. -->
+
+
         <a class="github-button" href="https://github.com/hikewithhayk"
            data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large"
            aria-label="Follow @hikewithhayk on GitHub">Follow @hikewithhayk</a>
@@ -25,8 +29,7 @@
         </div>
 
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <!--UA-154864300-1-->
+
 
         <script>
             window.ga = function () {
@@ -42,3 +45,52 @@
 
     </div>
 </div>
+
+-->
+
+<!-- NEW FOOTER DESIGN -->
+
+<div class="row" style="margin-top: 30px">
+    <div class="col-4">
+        <p><br>Hayk Samvelyan ®<br></p>
+
+    </div>
+    <div class="col-4" style="text-align: center;position: relative; margin-top: 20px">
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/hikewithhayk"
+           data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large"
+           aria-label="Follow @hikewithhayk on GitHub">Follow @hikewithhayk</a>
+    </div>
+    <div class="col-4">
+        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal"
+             data-theme="light" data-vanity="hayksamvelyan"><a class="LI-simple-link" href='https://www.linkedin.com/in/hayksamvelyan?trk=profile-badge'>Hayk
+            Samvelyan LinkedIn</a>
+        </div>
+    </div>
+</div>
+<!-- linkedin script -->
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-{{ site.google }}', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
